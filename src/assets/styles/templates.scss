@@ -1,0 +1,20 @@
+@mixin flex-gap($px) {
+  display: flex;
+  gap: $px;
+}
+
+@mixin flex-col-gap($px) {
+  display: flex;
+  flex-direction: column;
+  gap: $px;
+}
+
+%wrapper {
+  margin: 0 auto;
+  max-width: 1360px;
+  width: 100%;
+}
+
+%transition {
+  transition: all .7s ease-out 0s;
+}
