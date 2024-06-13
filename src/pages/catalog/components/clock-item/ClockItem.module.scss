@@ -1,0 +1,79 @@
+@import "src/assets/styles/templates";
+
+.link {
+  @include flex-gap(60px);
+  border-radius: 8px;
+  overflow: hidden;
+
+  padding: 24px;
+  border: 1px solid rgba(203, 203, 203, 0.13);
+
+  transition: border 0.2s ease-out;
+
+  &:hover {
+    border: 1px solid rgba(203, 203, 203, 0.4);
+  }
+}
+
+.image {
+  width: 240px;
+  height: 300px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.center {
+  @include flex-col-gap(24px);
+  flex: 1 0 auto;
+
+  .title {
+    font-weight: 400;
+    font-size: 20px;
+    color: #0C0C0C;
+  }
+
+  .info {
+    @include flex-col-gap(12px);
+
+    span {
+      font-size: 16px;
+      line-height: 125%;
+      color: #454545;
+    }
+  }
+
+  .inStock, .notInStock {
+    font-size: 16px;
+    line-height: 125%;
+
+    &.inStock {
+      color: #169B00;
+    }
+
+    &.notInStock {
+      color: #FF0000;
+    }
+  }
+}
+
+.right {
+  @include flex-col-gap(24px);
+  align-items: flex-end;
+
+  .priceWrapper {
+    @include flex-gap(8px);
+    align-items: flex-end;
+
+    .price {
+      font-weight: 500;
+      font-size: 24px;
+      color: #0C0C0C;
+    }
+
+    .prevPrice {
+      font-size: 16px;
+      text-decoration: line-through;
+      color: #ABABAB;
+    }
+  }
+}

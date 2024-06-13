@@ -1,0 +1,38 @@
+@import "src/assets/styles/templates";
+
+.breadcrumbs {
+  @include flex-gap(4px);
+  align-items: center;
+  max-width: 100%;
+  width: 100%;
+}
+
+.item {
+  max-width: 100%;
+
+  &:last-child {
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+  }
+
+  span, a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #ABABAB;
+    white-space: nowrap;
+  }
+}
+
+.lastItem {
+  color: #ABABAB;
+
+  span {
+    color: #454545;
+  }
+
+  .slash {
+    color: #ABABAB;
+  }
+}

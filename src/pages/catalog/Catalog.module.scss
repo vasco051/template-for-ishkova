@@ -1,0 +1,31 @@
+@import "src/assets/styles/templates";
+
+.main {
+  flex: 1 1 auto;
+}
+
+.wrapper {
+  @include flex-col-gap(32px);
+  @extend %wrapper;
+  padding: 40px 0;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 36px;
+  color: #0C0C0C;
+
+  margin-bottom: 12px;
+}
+
+.header {
+  @include flex-col-gap(12px);
+
+  .subTitle {
+    color: #7a7a7a;
+  }
+}
+
+.list {
+  @include flex-col-gap(8px);
+}

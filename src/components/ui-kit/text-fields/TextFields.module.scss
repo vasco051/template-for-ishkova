@@ -1,0 +1,69 @@
+@import "src/assets/styles/templates";
+
+// all styles
+.wrapper {
+  @include flex-col-gap(8px);
+  position: relative;
+  width: 100%;
+}
+
+.label {
+  color: var(--c_black);
+  font-size: 14px;
+}
+
+.subText {
+  margin-top: 5px;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--c_grey);
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.validation {
+  border: 1px solid var(--c_red) !important;
+}
+
+.textArea,
+.input {
+  width: 100%;
+
+  color: var(--black-default);
+  background-color: var(--blue-extralight);
+  border-radius: 8px;
+
+  font-size: 16px;
+  font-weight: 400;
+
+  &::placeholder {
+    color: #7a7a7a;
+  }
+
+  &:not(:placeholder-shown) {
+    color: #0C0C0C;
+  }
+}
+
+// custom input styles
+.input {
+  height: 54px;
+  padding-left: 15px;
+}
+
+.input::-ms-reveal {
+  display: none;
+}
+
+// custom textArea styles
+.textArea {
+  padding: 15px;
+  height: 100px;
+}
+
+.notResizable {
+  resize: none;
+}

@@ -1,0 +1,5 @@
+@import "src/assets/styles/templates";
+
+.searchPanel {
+  @include flex-gap(12px);
+}

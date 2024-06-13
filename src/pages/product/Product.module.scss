@@ -1,0 +1,89 @@
+@import "src/assets/styles/templates";
+
+.main {
+  flex: 1 1 auto;
+}
+
+.wrapper {
+  @include flex-col-gap(60px);
+  @extend %wrapper;
+  padding: 40px 0;
+}
+
+.header {
+  @include flex-gap(120px);
+
+  .imageWrapper {
+    @include flex-col-gap(24px);
+
+    .image {
+      width: 560px;
+      height: 560px;
+
+      object-fit: cover;
+      border-radius: 8px;
+      border: 1px solid rgba(122, 122, 122, 0.18);
+    }
+
+    .imageList {
+      @include flex-gap(12px);
+      justify-content: center;
+      flex-wrap: wrap;
+
+      .imageItem {
+        cursor: pointer;
+        border-radius: 8px;
+        border: 1px solid rgba(122, 122, 122, 0.18);
+
+        .itemImage {
+          width: 100px;
+          height: 100px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+
+  .right {
+    @include flex-col-gap(32px);
+
+    .title {
+      font-weight: 400;
+      font-size: 36px;
+      color: #0C0C0C;
+    }
+
+    .description {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+      color: #0C0C0C;
+    }
+
+    .info {
+      @include flex-col-gap(12px);
+    }
+
+    .text {
+      font-size: 18px;
+      line-height: 125%;
+      color: #0C0C0C;
+    }
+
+    .inStock {
+      color: #169B00;
+    }
+
+    .notInStock {
+      color: #FF0000;
+    }
+  }
+
+  .button {
+    width: max-content;
+  }
+}
+
+.list {
+  @include flex-col-gap(8px);
+}

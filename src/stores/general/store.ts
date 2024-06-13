@@ -1,15 +1,19 @@
 import {makeAutoObservable} from 'mobx';
 
-import {TemplateStore} from '../templateStore.ts';
+import {ClockStore} from '../clockStore.ts';
+import {BasketStore} from '../basketStore.ts';
 
 import {IRootStore} from 'types/stores/IRootStore.ts';
-import {ITemplateStore} from 'types/stores/ITemplateStore.ts';
+import {IClockStore} from 'types/stores/IClockStore.ts';
+import {IBasketStore} from 'types/stores/IBasketStore.ts';
 
 export class Store implements IRootStore {
-  template: ITemplateStore
+  clock: IClockStore
+  basket: IBasketStore
 
   constructor() {
-    this.template = new TemplateStore()
+    this.clock = new ClockStore()
+    this.basket = new BasketStore()
     makeAutoObservable(this);
   }
 }

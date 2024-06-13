@@ -1,10 +1,12 @@
 export const staticLinks = {
   main: '/',
-  template: '/template/:id',
+  basket: '/basket',
+  products: '/products',
+  product: '/products/:id',
 
   notFound: '/*'
 }
 
 export const dynamicLinks = {
-  template: (id: number) => `/template/${id}`
+  product: (id: number) => `/products/${id}`
 }

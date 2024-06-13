@@ -1,5 +1,7 @@
-import {ITemplateStore} from './ITemplateStore.ts';
+import {IClockStore} from './IClockStore.ts';
+import {IBasketStore} from './IBasketStore.ts';
 
 export interface IRootStore {
-  template: ITemplateStore
+  clock: IClockStore
+  basket: IBasketStore
 }

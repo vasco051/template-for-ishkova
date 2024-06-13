@@ -1,8 +1,184 @@
 {
-  "templates": [
+  "clocks": [
     {
       "id": 1,
-      "title": "template"
+      "name": "Часы Roamer 975 819 41 45 90",
+      "description": "Мужские швейцарские наручные часы с хронографом Roamer 975 819 41 45 90, кварцевый механизм с высокой точностью. Сапфировое стекло устойчивое к появлению царапин, обладающее высокой прозрачностью. Класс водозащиты: 50 метров, позволит защитить корпус от случайных брызг или капель дождя. Корпус часов изготовлен из стали, цвета.\n\n",
+      "city": "Швейцария",
+      "type": "Кварцевые",
+      "color": "Серебристый",
+      "price": 42370,
+      "prev_price": null,
+      "in_stock": true,
+      "images": [
+        "https://spb.kronostime.ru/upload/images.opt/iblock/022/975%20819%2041%2045%2090_1.webp",
+        "https://spb.kronostime.ru/upload/images.opt/iblock/c24/975%20819%2041%2045%2090_2.webp"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Часы Epos Quartz 7000.701.22.15.25",
+      "description": "Эксклюзивный выпуск кварцевых часов Epos отличается великолепными пропорциями и утонченной отделкой каждой детали. Quartz.\n\n",
+      "city": "Швейцария",
+      "type": "Механические",
+      "color": "Золотистый",
+      "price": 49720,
+      "prev_price": null,
+      "in_stock": true,
+      "images": [
+        "https://spb.kronostime.ru/upload/images.opt/iblock/97a/15_fb15d5c35446a6c27ba38fe51dcb8293.webp",
+        "https://spb.kronostime.ru/upload/images.opt/iblock/b9a/15_6888d0995722fcdd1faf73ccb805dfeb.webp"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Часы Longines HydroConquest L3.740.4.96.6",
+      "description": "Мужские швейцарские часы Longines HydroConquest L3.740.4.96.6 представлены в классическом стиле.\n\nШвейцарский кварцевый механизм L157 отличается высокой точностью хода. Часы выполнены из прочной стали 316L с антикоррозионными свойствами. Стрелки и метки дополнены люминесцентным покрытием. Водостойкость – 30 бар.\n\nПроизводство и сборка: Швейцария.\n\n",
+      "city": "Швейцария",
+      "type": "Кварцевые",
+      "color": "Серебристый",
+      "price": 147890,
+      "prev_price": 153400,
+      "in_stock": false,
+      "images": [
+        "https://spb.kronostime.ru/upload/images.opt/iblock/a23/Longines%20HydroConquest%20L3.740.4.96.6.webp",
+        "https://spb.kronostime.ru/upload/images.opt/iblock/5bb/ss95ex7mt5yy4y9xduixzc92shdkhap9/L3.740.4.96.6_1.webp",
+        "https://spb.kronostime.ru/upload/images.opt/iblock/b63/L3.740.4.96.6_2.webp"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Часы Spinnaker Bradner SP-5062-11",
+      "description": "Мужские итальянские часы Spinnaker Bradner SP-5062-11, механический механизм (автоматический калибр) с высокой точностью. Циферблат с люминесцентным покрытием стрелок, меток и безеля дополнен сапфировым стеклом, устойчивым к появлению царапин и обладающее высокой прозрачностью. Класс водозащиты: 180 метров, позволит плавать, нырять и заниматься другими водными видами спорта. Корпус часов изготовлен из стали. Благодаря обновленному безелю  с более техническим изгибом,  мастерство и точность  изготовления часов Spinnaker Watches демонстрируются в безеле из закаленного стекла с  двухцветной отделкой. Браслет с раскладной застёжкой.\n",
+      "city": "Гонконг",
+      "type": "Механические",
+      "color": "Серебристый",
+      "price": 37400,
+      "prev_price": null,
+      "in_stock": true,
+      "images": [
+        "https://spb.kronostime.ru/upload/images.opt/iblock/889/f3sty31osfae8kl59p2tkzd2l9xe1cba/SP-5062-11.webp",
+        "https://spb.kronostime.ru/upload/images.opt/iblock/e17/9rd4iqx331fzx50ef894iyy5x2ys0ob3/SP-5062-11_2.webp",
+        "https://spb.kronostime.ru/upload/images.opt/iblock/775/e6x5yqi9w0tn79iir398b0htszowr8sf/SP-5062-11_4.webp"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Часы Seiko Conceptual Series Dress SUR330P1",
+      "description": "Женские японские часы Seiko Conceptual Series Dress SUR330P1, кварцевый механизм с высокой точностью. Класс водозащиты: 50 метров, позволит защитить корпус от случайных брызг или капель дождя. Корпус часов изготовлен из стали, цвета.\n\n",
+      "city": "Япония",
+      "type": "Кварцевые",
+      "color": "Золотистый",
+      "price": 32735,
+      "prev_price": 38511,
+      "in_stock": true,
+      "images": [
+        "https://spb.kronostime.ru/upload/images.opt/iblock/9c6/sur330p1_1.webp"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Часы Tissot Le Locle Powermatic 80 T006.407.16.033.00",
+      "description": "Оригинальная модель наручных часов для мужчин подчеркнёт изысканный вкус и статус владельца.\n\nTissot Le Locle. Часы из \"юбилейной\" коллекции комплектуются швейцарским механизмом Powermatic 80, который сохраняет запас хода до 80 часов. Сапфировое стекло с антибликовым покрытием. Ремешок из натуральной кожи с тиснением под кожу аллигатора. Прозрачная задняя крышка с гравировкой. Узнаваемый дизайн циферблата. Индикация даты на метке \"3 часа\". Винтажные римские цифры.\n\nМеждународная гарантия 2 года, действует по всему миру. Производство и сборка: Швейцария.\n\n",
+      "city": "Швейцария",
+      "type": "Механические",
+      "color": "Серебристый",
+      "price": 114490,
+      "prev_price": null,
+      "in_stock": true,
+      "images": [
+        "https://spb.kronostime.ru/upload/images.opt/iblock/1b6/T006.407.16.033.00.webp",
+        "https://spb.kronostime.ru/upload/images.opt/iblock/080/T006.407.16.033.00_3.webp",
+        "https://spb.kronostime.ru/upload/images.opt/iblock/9ae/T006.407.16.033.00_1.webp"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Часы Festina Chrono Bike F20543/1",
+      "description": "Часы-хронограф. Кварцевый механизм с высокой точностью. Минеральное стекло устойчивое к появлению царапин, обладающее высокой прозрачностью. Класс водозащиты: 100 метров, позволит плавать, нырять и заниматься другими водными видами спорта. Стрелки и метки с люминесцентным покрытием. Корпус часов изготовлен из нержавеющей стали. Браслет с раскладной застёжкой.\n\n",
+      "city": "Испания",
+      "type": "Кварцевые",
+      "color": "Серебристый",
+      "price": 26770,
+      "prev_price": null,
+      "in_stock": true,
+      "images": [
+        "https://krasnodar.kronostime.ru/upload/images.opt/iblock/f84/drvhs00xtnhkl2nipsdzv5fcn9lkp05u/F20543-1.webp",
+        "https://krasnodar.kronostime.ru/upload/images.opt/iblock/9cb/c0dro1vnp64acti8czn16kg4hor3fin7/F20543-1__2.webp",
+        "https://krasnodar.kronostime.ru/upload/images.opt/iblock/423/t9ghaow4zyz18veaiza5gwy84f6d99iv/F20543-1__3.webp",
+        "https://krasnodar.kronostime.ru/upload/images.opt/iblock/91a/9tl3bx2as3z15wyfywwd4kqqzrumgo5j/F20543-1__4.webp"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Часы Festina Chrono Bike F20670/6",
+      "description": "Часы-хронограф. Кварцевый механизм с высокой точностью. Минеральное стекло устойчивое к появлению царапин, обладающее высокой прозрачностью. Класс водозащиты: 100 метров, позволит плавать, нырять и заниматься другими водными видами спорта. Безель c PVD-покрытием. Стрелки и метки с люминесцентным покрытием. Корпус часов изготовлен из нержавеющей стали. Браслет с раскладной застёжкой.\n\n",
+      "city": "Испания",
+      "type": "Кварцевые",
+      "color": "Серебристый",
+      "price": 26890,
+      "prev_price": 33420,
+      "in_stock": true,
+      "images": [
+        "https://spb.kronostime.ru/upload/iblock/5c0/t5se8v1eoenx439inln7b5dxqe5buew8/F20670-6.jpg",
+        "https://spb.kronostime.ru/upload/iblock/f53/uhdx4ma5mnkr1hjrvp17wl942g9n8z31/F20670-6_2.jpg",
+        "https://spb.kronostime.ru/upload/iblock/57e/kltb4ojt8a3xacy1p80q0n9y0c1hhlaq/F20670-6_3.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Часы Festina Chrono Bike F20670/2",
+      "description": "Часы-хронограф. Кварцевый механизм с высокой точностью. Минеральное стекло устойчивое к появлению царапин, обладающее высокой прозрачностью. Класс водозащиты: 100 метров, позволит плавать, нырять и заниматься другими водными видами спорта. Безель c PVD-покрытием. Стрелки и метки с люминесцентным покрытием. Корпус часов изготовлен из нержавеющей стали. Браслет с раскладной застёжкой.\n\n",
+      "city": "Испания",
+      "type": "Кварцевые",
+      "color": "Серебристый",
+      "price": 26880,
+      "prev_price": null,
+      "in_stock": true,
+      "images": [
+        "https://spb.kronostime.ru/upload/iblock/cf2/vs01hak8neypbhoegq0u5v33gveh4rmu/F20670-2.jpg",
+        "https://spb.kronostime.ru/upload/iblock/a54/1kva9v3g31mw6bciq64atipni22y9ewp/F20670-2_2.jpg",
+        "https://spb.kronostime.ru/upload/iblock/43c/6wawi40zwysqkdgnkc3x2f8jukvsv7mq/F20670-2_3.jpg"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Часы Longines HydroConquest L3.740.4.96.6",
+      "description": "Мужские швейцарские часы Longines HydroConquest L3.740.4.96.6 представлены в классическом стиле.\n\nШвейцарский кварцевый механизм L157 отличается высокой точностью хода. Часы выполнены из прочной стали 316L с антикоррозионными свойствами. Стрелки и метки дополнены люминесцентным покрытием. Водостойкость – 30 бар.\n\nПроизводство и сборка: Швейцария.\n\n",
+      "city": "Швейцария",
+      "type": "Кварцевые",
+      "color": "Серебристый",
+      "price": 148900,
+      "prev_price": 164000,
+      "in_stock": true,
+      "images": [
+        "https://spb.kronostime.ru/upload/images.opt/iblock/5bb/ss95ex7mt5yy4y9xduixzc92shdkhap9/L3.740.4.96.6_1.webp",
+        "https://spb.kronostime.ru/upload/images.opt/iblock/969/L3.740.4.96.6_3.webp",
+        "https://spb.kronostime.ru/upload/images.opt/iblock/b63/L3.740.4.96.6_2.webp",
+        "https://spb.kronostime.ru/upload/images.opt/iblock/969/L3.740.4.96.6_3.webp"
+      ]
+    }
+  ],
+  "basket": [
+    {
+      "id": "7fd87450-86b0-4282-ae2f-352d7b81e7e7",
+      "clocks_ids": [],
+      "current_clocks_ids": [
+        9
+      ]
+    },
+    {
+      "id": "7607ef8c-ce2a-45d5-9c49-71f28dfafda5",
+      "clocks_ids": [
+        4,
+        8,
+        9,
+        6
+      ],
+      "current_clocks_ids": [
+        9,
+        6
+      ]
     }
   ]
 }
